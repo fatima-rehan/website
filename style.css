@@ -31,15 +31,16 @@ html {
     display: flex;
     text-align: center;
     font-size: 50px;
-    font-family: "Philosopher";
+    font-family: "Philosopher", Jovanny Lemonad;
     color: #674ea7;
+    margin-bottom: 0px;
     } 
       
 .home-title{
     text-align: center;
     margin-bottom: 0px;
     font-size: 70px;
-    font-family: "Sofia";
+    font-family: "Sofia", LatinoType;
     font-weight: bold;
     color: #000000ff;
     }
@@ -48,7 +49,7 @@ html {
     text-align: center;
     justify-content: center;
     font-size: 25px;
-    font-family: "Philosopher";
+    font-family: "Philosopher", Jovanny Lemonad;
     font-weight: 500x;
     color: #000000ff;
     }
@@ -59,15 +60,11 @@ html {
     background-color: #fbedffff;
     color: #674ea7;
     border: none;
-    padding: 30px;
     margin: 10px 0;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 600;
     cursor: pointer;
     }
-.home-button:hover{
-    background-color:gray;}
-.home-button:active{background-color:gray;}
 
 /*Home images*/
 .fatima-1{
@@ -80,7 +77,6 @@ html {
     display: flex;
     justify-self: center;
     align-items: center;
-
 }
 
 /*Navigation bar*/
@@ -88,6 +84,9 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #674ea7;
+    border-radius: 10px;
+    border-color: #eeeeeeff;
     }
 .nav{
     padding-left: 10px;
@@ -98,15 +97,14 @@ html {
     display: inline;
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 30px;
-    background-color: #eeeeeeff;
+    padding: 50px;
     border-radius: 5px;
     border-color: #000000ff;
     
     }
 .nav-link {
     color: #000000ff;
-    font-size: 50px; 
+    font-size: 40px; 
     font-weight:500x;
     }
 
@@ -115,11 +113,8 @@ html {
     color: #000000ff;
     border-radius: 5px;
     border-color: #000000ff;
-    font-family: "Righteous";
-    font-weight:600px;
+    font-family: "Righteous", Astigmatic;
+    font-size: 40px;
+    font-weight:500px;
     cursor:pointer;
 }
-.nav-link:hover {
-    color: gray;}
-.nav-link:active {
-    color: gray;}
