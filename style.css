@@ -28,23 +28,23 @@ html {
     }
 
 .salutations{
-    font-size: 50px;
+    font-size: 30px;
     font-family: "Philosopher";
     color: #674ea7
     }
 .Im{
-    font-size: 50px;
+    font-size: 30px;
     font-family: "Philosopher";
     color: #000000ff
 }
 .home-title{
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Sofia";
     font-weight: bold;
     color: #000000ff;
     }
 .description{
-    font-size: 35px;
+    font-size: 25px;
     font-family: "Philosopher";
     color: #000000ff;
     }
@@ -81,8 +81,8 @@ html {
 .nav-link {
     color: #eeeeeeff;
     text-decoration:#000000ff;
-    font-size: 50px; 
-    font-weight:700x;
+    font-size: 30px; 
+    font-weight:500x;
     font-family: "Righteous";
     }
 .nav-link:hover {
