@@ -63,7 +63,6 @@ html {
     margin: 10px 0;
     font-size: 50px;
     font-weight: 600;
-    cursor: pointer;
     }
 
 /*Home images*/
@@ -98,20 +97,13 @@ html {
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 50px;
-    border-radius: 5px;
-    border-color: #000000ff;
     
-    }
-.nav-link {
-    color: #000000ff;
-    font-size: 40px; 
-    font-weight:500x;
     }
 
 .nav-button{
     background-color: #eeeeeeff;
     color: #000000ff;
-    border-radius: 5px;
+    border-radius: 10px;
     border-color: #000000ff;
     font-family: "Righteous", Astigmatic;
     font-size: 40px;
