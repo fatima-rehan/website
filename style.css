@@ -28,18 +28,18 @@ html {
     }
 
 .salutations{
-    font-size: larger;
+    font-size: 70px;
     font-family: Philosopher;
     color: #674ea7
     }
 .home-title{
-    font-size: xx-large;
+    font-size: 90px;
     font-family: Sofia;
     font-weight: bold;
     color: #000000ff;
     }
 .description{
-    font-size: large;
+    font-size: 45px;
     font-family: Philosopher;
     color: #000000ff;
     }
