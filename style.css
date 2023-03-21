@@ -6,8 +6,11 @@ html {
     font-family:"Righteous", "Philosopher", "Sofia";
     background-color: #fbedffff;
     
-    colour: #674ea7, #ffffffff, 
+    scroll-behavior: smooth;
+    color: #674ea7, #ffffffff, #eeeeeeff, #000000ff, #b4a7d6ff
 }
+
+/* margin/padding: top right bottom left */
 
 .container{
     padding: 0 20px;
@@ -15,3 +18,24 @@ html {
     width: 70vw;
 }
 
+.nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav{
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    
+}
+
+.nav-item {
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 30px;
+
+}
