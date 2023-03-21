@@ -13,8 +13,8 @@ html {
 /* margin/padding: top right bottom left */
 
 .container{
-    padding: 0 20%;
-    padding-right: 20%;
+    padding: 0 20px;
+    padding-right: 20px;
     margin: 0, auto;
     width: 70vw;
     }
@@ -30,16 +30,16 @@ html {
 .salutations{
     display: flex;
     text-align: center;
-    font-size: 50%;
+    font-size: 50px;
     font-family: "Philosopher", Jovanny Lemonad;
     color: #674ea7;
-    margin-bottom: 0%;
+    margin-bottom: 0px;
     } 
       
 .home-title{
     text-align: center;
-    margin-bottom: 0%;
-    font-size: 70%;
+    margin-bottom: 0px;
+    font-size: 70px;
     font-family: "Sofia", LatinoType;
     font-weight: bold;
     color: #000000ff;
@@ -87,6 +87,9 @@ html {
     background-color: #674ea7;
     border-radius: 10px;
     border-color: #eeeeeeff;
+    position: -webkit-sticky;
+    position: sticky;
+    bottom: 0;
     }
 .nav{
     padding-left: 10px;
