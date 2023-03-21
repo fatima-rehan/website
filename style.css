@@ -28,23 +28,23 @@ html {
     }
 
 .salutations{
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Philosopher";
     color: #674ea7
     }
 .Im{
-    font-size: 70px;
+    font-size: 50px;
     font-family: "Philosopher";
     color: #000000ff
 }
 .home-title{
-    font-size: 90px;
+    font-size: 70px;
     font-family: "Sofia";
     font-weight: bold;
     color: #000000ff;
     }
 .description{
-    font-size: 45px;
+    font-size: 35px;
     font-family: "Philosopher";
     color: #000000ff;
     }
