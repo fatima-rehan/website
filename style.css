@@ -37,6 +37,7 @@ html {
       
 .home-title{
     text-align: center;
+    margin-bottom: 0px;
     font-size: 70px;
     font-family: "Sofia";
     font-weight: bold;
@@ -53,12 +54,20 @@ html {
     }
 .home-button{
     display: flex;
-    text-align: center;
     justify-content: center;
     margin-top: 20px;
-    font-size: 60px;
-    color:#674ea7;
+    background-color: #fbedffff;
+    color: #674ea7;
+    border: none;
+    padding: 30px;
+    margin: 10px 0;
+    font-size: 20px;
+    font-weight: 600;
+    cursor: pointer;
     }
+.home-button:hover{
+    background-color:gray;}
+.home-button:active{background-color:gray;}
 
 /*Home images*/
 .fatima-1{
@@ -90,14 +99,26 @@ html {
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 30px;
+    background-color: #eeeeeeff;
+    border-radius: 5px;
+    border-color: #000000ff;
+    
     }
 .nav-link {
-    color: #eeeeeeff;
-    text-decoration:#000000ff;
-    font-size: 30px; 
+    color: #000000ff;
+    font-size: 50px; 
     font-weight:500x;
-    font-family: "Righteous";
     }
+
+.nav-button{
+    background-color: #eeeeeeff;
+    color: #000000ff;
+    border-radius: 5px;
+    border-color: #000000ff;
+    font-family: "Righteous";
+    font-weight:600px;
+    cursor:pointer;
+}
 .nav-link:hover {
     color: gray;}
 .nav-link:active {
