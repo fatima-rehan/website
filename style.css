@@ -151,7 +151,24 @@ html {
     width: 100%;
 }
 
-.instagram{
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #674ea7;
+    border-radius: 10px;
+    border-color: #eeeeeeff;
+    position: -webkit-sticky-bottom;
+    position: sticky;
+    bottom: 0;}
+
+.contact-item {
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 50px;}
+
+.contact-button{
     background-color: #eeeeeeff;
     color: #000000ff;
     border-radius: 10px;
@@ -160,22 +177,5 @@ html {
     font-size: 40px;
     font-weight:500px;
     cursor:pointer;}
-.linkedin{
-    background-color: #eeeeeeff;
-    color: #000000ff;
-    border-radius: 10px;
-    border-color: #000000ff;
-    font-family: "Righteous", Astigmatic;
-    font-size: 40px;
-    font-weight:500px;
-    cursor:pointer;}
-.github{
-    background-color: #eeeeeeff;
-    color: #000000ff;
-    border-radius: 10px;
-    border-color: #000000ff;
-    font-family: "Righteous", Astigmatic;
-    font-size: 40px;
-    font-weight:500px;
-    cursor:pointer;}
+
     
