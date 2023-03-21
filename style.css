@@ -52,12 +52,13 @@ html {
     color: #000000ff;
     }
 .home-button{
-    display:flex;
+    display: flex;
+    text-align: center;
     justify-content: center;
     margin-top: 20px;
     font-size: 60px;
-    color:#674ea7
-}
+    color:#674ea7;
+    }
 
 /*Home images*/
 .fatima-1{
