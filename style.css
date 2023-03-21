@@ -66,7 +66,7 @@ html {
     border-radius: 10px;
     border-color: #eeeeeeff;
     position: -webkit-sticky-bottom;
-    position: fixed;
+    position: sticky;
     bottom: 0;}
 .nav{
     padding-left: 10px;
@@ -153,13 +153,13 @@ html {
     display: flex;;
     justify-content: center;
     margin-top: 20px;
-    padding: 0 10px;
+    padding: 30px;
 }
 
 .contact-button{
     background-color: #b4a7d6ff;
     color: #674ea7;
-    border-radius: 10px;
+    border-radius: 20px;
     border-color: #674ea7;
     font-family: "Righteous", Astigmatic;
     font-size: 30px;
