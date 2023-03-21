@@ -66,8 +66,12 @@ html {
     border-radius: 10px;
     border-color: #eeeeeeff;
     position: -webkit-sticky-bottom;
-    position: sticky;
-    bottom: 0;}
+    position: fixed;
+    margin-bottom: 100px;
+    bottom: 0;
+    width: 100%;
+    text-align: center;}
+
 .nav{
     padding-left: 10px;
     margin-top: 20px;
