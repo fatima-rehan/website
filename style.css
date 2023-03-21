@@ -20,7 +20,7 @@ html {
     }
 
 /*Home page, about me*/
-.home{
+#home{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,26 +28,31 @@ html {
     }
 
 .salutations{
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Philosopher";
     color: #674ea7
     }
 .Im{
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Philosopher";
     color: #000000ff
 }
 .home-title{
-    font-size: 50px;
+    font-size: 60px;
     font-family: "Sofia";
     font-weight: bold;
     color: #000000ff;
     }
 .description{
-    font-size: 25px;
+    font-size: 30px;
     font-family: "Philosopher";
     color: #000000ff;
     }
+.view-button{
+    font-size: 60px;
+    font-family: "Righteous";
+    color:#674ea7
+}
 
 /*Home images*/
 .fatima-1{
