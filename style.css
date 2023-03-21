@@ -132,3 +132,47 @@ html {
     padding-top: 50px;
     padding-bottom: 50px;}
 
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;}   
+
+.contact-title:{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-family: "Righteous", Astigmatic;
+    font-weight: bold;
+    color: #eeeeeeff;
+    background-color:#674ea7;
+    background-size: 40vh;
+}
+
+.instagram{
+    background-color: #eeeeeeff;
+    color: #000000ff;
+    border-radius: 10px;
+    border-color: #000000ff;
+    font-family: "Righteous", Astigmatic;
+    font-size: 40px;
+    font-weight:500px;
+    cursor:pointer;}
+.linkedin{
+    background-color: #eeeeeeff;
+    color: #000000ff;
+    border-radius: 10px;
+    border-color: #000000ff;
+    font-family: "Righteous", Astigmatic;
+    font-size: 40px;
+    font-weight:500px;
+    cursor:pointer;}
+.github{
+    background-color: #eeeeeeff;
+    color: #000000ff;
+    border-radius: 10px;
+    border-color: #000000ff;
+    font-family: "Righteous", Astigmatic;
+    font-size: 40px;
+    font-weight:500px;
+    cursor:pointer;}
