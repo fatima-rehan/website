@@ -58,11 +58,13 @@ html {
     display: flex;
     justify-self: center;
     align-items: center;
+    float: left;
 }
 .fatima-2{
     display: flex;
     justify-self: center;
     align-items: center;
+    float: right;
 }
 
 /*Navigation bar*/
