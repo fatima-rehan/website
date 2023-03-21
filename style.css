@@ -151,31 +151,18 @@ html {
     width: 100%;
 }
 
-.contact-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #674ea7;
-    border-radius: 10px;
-    border-color: #eeeeeeff;
-    position: -webkit-sticky-bottom;
-    position: sticky;
-    bottom: 0;}
-
-.contact-item {
+.contacts{
     display: inline;
     margin-top: 20px;
     margin-bottom: 10px;
     padding: 50px;}
 
 .contact-button{
-    background-color: #eeeeeeff;
-    color: #000000ff;
+    background-color: #b4a7d6ff;
+    color: #674ea7;
     border-radius: 10px;
-    border-color: #000000ff;
+    border-color: #674ea7;
     font-family: "Righteous", Astigmatic;
     font-size: 40px;
     font-weight:500px;
     cursor:pointer;}
-
-    
