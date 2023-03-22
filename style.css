@@ -22,21 +22,24 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;}
+    height: 100vh;
+}
 .salutations{
     display: flex;
     text-align: center;
     font-size: 50px;
     font-family: "Philosopher", Jovanny Lemonad;
     color: #674ea7;
-    margin-bottom: 0px;}     
+    margin-bottom: 0px;
+}     
 .home-title{
     text-align: center;
     margin-bottom: 0px;
     font-size: 70px;
     font-family: "Sofia", LatinoType;
     font-weight: bold;
-    color: #000000ff;}
+    color: #000000ff;
+}
 .description{
     display: flex;
     text-align: center;
@@ -44,7 +47,8 @@ html {
     font-size: 25px;
     font-family: "Philosopher", Jovanny Lemonad;
     font-weight: 500x;
-    color: #000000ff;}
+    color: #000000ff;
+}
 .home-button{
     display: flex;
     justify-content: center;
@@ -55,7 +59,8 @@ html {
     margin: 10px 0;
     font-size: 50px;
     font-weight: 600;
-    cursor:pointer;}
+    cursor:pointer;
+}
 
  /*Navigation bar*/
 .nav-container {
@@ -66,21 +71,24 @@ html {
     border-radius: 10px;
     border-color: #eeeeeeff;
     position: -webkit-sticky-bottom;
-    margin-bottom: 100px;
+    margin-bottom: 0px;
     position: fixed;
     bottom: 0;
     width: 100%;
-    text-align: center;}
+    text-align: center;
+}
 
 .nav{
     padding-left: 10px;
     margin-top: 20px;
-    margin-bottom: 10px;}  
+    margin-bottom: 10px;
+}  
 .nav-item {
     display: inline;
     margin-top: 20px;
     margin-bottom: 10px;
-    padding: 50px;}
+    padding: 50px;
+}
 .nav-button{
     background-color: #eeeeeeff;
     color: #000000ff;
@@ -89,14 +97,16 @@ html {
     font-family: "Righteous", Astigmatic;
     font-size: 40px;
     font-weight:500px;
-    cursor:pointer;}
+    cursor:pointer;
+}
 
 /*About Page*/
 #About{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;}
+    height: 100vh;
+}
 .about-title{
     text-align: center;
     margin-bottom: 0px;
@@ -107,7 +117,6 @@ html {
     background-color:#674ea7;
     background-size: 40vh;
     width: 100%;
-
 }
 .about-info{
     display: flex;
@@ -127,20 +136,23 @@ html {
     justify-self: center;
     align-items: left;
     padding-top: 50px;
-    padding-bottom: 50px;}
+    padding-bottom: 50px;
+}
 .fatima-2{
     display: flex;
     flex-wrap: wrap;
     justify-self: center;
     align-items: right;
     padding-top: 50px;
-    padding-bottom: 50px;}
+    padding-bottom: 50px;
+}
 
 .contact-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;}   
+    height: 100vh;
+}   
 
 .contact-title{
     text-align: center;
@@ -151,7 +163,8 @@ html {
     color: #eeeeeeff;
     background-color:#674ea7;
     background-size: 40vh;
-    width: 100vw;}
+    width: 100vw;
+}
 
 .contacts{
     display: flex;;
