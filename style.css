@@ -66,10 +66,9 @@ html {
     border-radius: 10px;
     border-color: #eeeeeeff;
     position: -webkit-sticky-bottom;
-    position: fixed;
     margin-bottom: 100px;
+    position: fixed;
     bottom: 0;
-    z-index: 1030;
     width: 100%;
     text-align: center;}
 
