@@ -1,0 +1,67 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Sofia|Philosopher|Righteous&effect=neonwght@100;200;300;300;400;500&display=swap");
+
+html {
+    margin: 0;
+    padding: 0;
+    font-family:"Righteous", "Philosopher", "Sofia";
+    background-color: #fbedffff;
+    scroll-behavior: smooth;
+    color: #674ea7, #ffffffff, #eeeeeeff, #000000ff, #b4a7d6ff
+}
+
+ /*Navigation bar*/
+ .nav-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #674ea7;
+    border-radius: 10px;
+    border-color: #eeeeeeff;
+    position: -webkit-sticky-bottom;
+    margin-bottom: 0px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.nav{
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}  
+.nav-item {
+    display: inline;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 50px;
+}
+.nav-button{
+    background-color: #eeeeeeff;
+    color: #000000ff;
+    border-radius: 10px;
+    border-color: #000000ff;
+    font-family: "Righteous", Astigmatic;
+    font-size: 40px;
+    font-weight:500px;
+    cursor:pointer;
+}
+/*Gallery Page*/
+#Gallery{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 35px;
+    font-family: "Righteous", Astigmatic;
+    font-weight: bold;
+    color: #eeeeeeff;
+    background-color:#674ea7;
+    background-size: 40vh;
+    width: 100vw;
+}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+
+.gallery-container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
