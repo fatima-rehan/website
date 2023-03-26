@@ -13,7 +13,7 @@
         <!--- Home Div-->
         <div id="home">
             <div>
-                <h2 class="salutations">السلام عليكم/Salut!/Hey, I'm</h2><br>
+                <h2 class="auto type salutations"></h2><br>
                 <h1 class="home-title">Fatima Rehan</h1><br>
                 <h3 class="description">Student • Woman in STEM • Coder</h3><br>
                 <div class="home-button">
@@ -62,9 +62,16 @@
             </ul>
     </div>
     
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.1.12"></script>
     <script>
-    
+        let typed=new typed(".auto-typed", {
+            strings: ["Salut!^1000","السلام عليكم^1000","Hey, I'm^1000"],
+            typeSpeed: 90, 
+            backSpeed: 90,
+            loop: true
+        });
     </script>
+    
 
 
 </html>
