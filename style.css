@@ -9,42 +9,6 @@ html {
     color: #674ea7, #ffffffff, #eeeeeeff, #000000ff, #b4a7d6ff
 }
 
-@media screen and (max-width: 414px) {
-    /* Adjust the size of the home-title and description */
-    .home-title {
-      font-size: 3.5em;
-    }
-    .description {
-      font-size: 1.5em;
-      margin-top: 0.5em;
-    }
-    
-    /* Adjust the size of the contact-button */
-    .contact-button {
-      font-size: 0.8em;
-    }
-    
-    /* Adjust the size and spacing of the images in the images-style div */
-    .images-style {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    .fatima-1 img,
-    .fatima-2 img {
-      width: 100%;
-      margin-bottom: 1em;
-    }
-    
-    /* Adjust the size and spacing of the nav buttons */
-    .nav-button {
-      font-size: 0.8em;
-      padding: 0.5em;
-    }
-    .nav-item:not(:last-child) {
-      margin-right: 1em;
-    }
-  }
 /* margin/padding: top right bottom left */
 .container{
     padding: 0 10px;
