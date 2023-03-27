@@ -14,6 +14,12 @@
           html {
             font-family: "Righteous", "Philosopher", "Sofia", sans-serif;
             }
+            .salutations {
+                margin-bottom: 0.5em;
+            }
+            .auto-type {
+                white-space: pre;
+            }
         </style>
     </head>
 
@@ -22,11 +28,11 @@
         <!--- Home Div-->
         <div id="home">
             <div>
-                <h2 class="salutations"> <span class="auto-type">" "</span></h2><br>
-                <h1 class="home-title">Fatima Rehan</h1><br>
-                <h3 class="description">Student • Woman in STEM • Coder</h3><br>
+                <h2 class="salutations"><span class="auto-type"></span></h2>
+                <h1 class="home-title">Fatima Rehan</h1>
+                <h3 class="description">Student • Woman in STEM • Coder</h3>
                 <div class="home-button">
-                    <a class="home-button" href="#About"><button class="home-button"onclick="home-button">v</button>
+                    <a class="home-button" href="#About"><button class="home-button"onclick="home-button">v</button></a>
                 </div>
             </div>
         </div>
@@ -74,9 +80,10 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
     <script>
         let typed=new Typed('.auto-type', {
-            strings: ["Salut!^1000","السلام عليكم","Hey, I'm^1000"],
+            strings: ["Salut!^1000","السلام عليكم","Hey, I'm^1000", " "],
             typeSpeed: 90, 
             backSpeed: 90,
+            backDelay: 500,
             loop: true,
             showCursor: false,
         });
